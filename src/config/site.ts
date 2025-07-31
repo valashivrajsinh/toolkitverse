@@ -4,12 +4,12 @@ import { Metadata } from 'next'
 export const siteConfig = {
   name: "ToolkitVerse",
   description: "Your all-in-one productivity hub for students and developers. Free calculators, tools, planners, and resources to boost your productivity.",
-  url: "https://yourdomain.com", // Replace with your actual domain
-  ogImage: "https://yourdomain.com/og.jpg", // Replace with your actual domain
-  creator: "@yourusername", // Replace with your actual username
+  url: "https://toolkitverse.netlify.app", // Updated for Netlify deployment
+  ogImage: "https://toolkitverse.netlify.app/og-image.png", // Updated for Netlify deployment
+  creator: "@toolkitverse", // Updated creator handle
   keywords: [
     "productivity tools",
-    "student calculator",
+    "student calculator", 
     "GPA calculator",
     "developer tools",
     "free tools",
@@ -19,36 +19,52 @@ export const siteConfig = {
     "EMI calculator",
     "tech tools",
     "programming resources",
-    "free courses"
+    "free courses",
+    "budget calculator",
+    "CGPA calculator",
+    "study planner",
+    "AI tools",
+    "web development tools"
   ],
   authors: [
     {
-      name: "Your Name", // Replace with your actual name
-      url: "https://yourdomain.com", // Replace with your actual domain
+      name: "ToolkitVerse Team", // Updated author name
+      url: "https://toolkitverse.netlify.app", // Updated for Netlify deployment
     }
   ],
   social: {
-    twitter: "https://twitter.com/yourusername", // Replace with your actual social links
-    github: "https://github.com/yourusername", // Replace with your actual social links
-    linkedin: "https://linkedin.com/in/yourusername" // Replace with your actual social links
+    twitter: "https://twitter.com/toolkitverse", // Updated social links
+    github: "https://github.com/valashivrajsinh/toolkitverse", // Updated social links
+    linkedin: "https://linkedin.com/company/toolkitverse" // Updated social links
   }
 }
 
 // SEO defaults for metadata
 export const defaultMetadata: Metadata = {
   title: {
-    default: siteConfig.name,
+    default: "ToolkitVerse - Your All-in-One Productivity Hub for Students & Developers",
     template: `%s | ${siteConfig.name}`
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   authors: siteConfig.authors,
   creator: siteConfig.creator,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    title: siteConfig.name,
+    title: "ToolkitVerse - Your All-in-One Productivity Hub",
     description: siteConfig.description,
     siteName: siteConfig.name,
     images: [
@@ -62,7 +78,7 @@ export const defaultMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.name,
+    title: "ToolkitVerse - Your All-in-One Productivity Hub",
     description: siteConfig.description,
     images: [siteConfig.ogImage],
     creator: siteConfig.creator,
@@ -76,17 +92,6 @@ export const defaultMetadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   alternates: {
     canonical: siteConfig.url,
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
   },
 }
 
