@@ -1,3 +1,11 @@
+# Legal Notice
+
+**All Rights Reserved.**
+
+This software and its source code are the exclusive property of Shivrajsinh Vala. Unauthorized copying, reproduction, modification, distribution, or use of any part of this codebase, in any form or by any means, is strictly prohibited without the express written permission of the copyright holder.
+
+For inquiries, contact: shivrajsinhvala@gmail.com
+
 # ToolkitVerse
 
 **Your All-in-One Productivity Hub for Students and Developers**
@@ -157,9 +165,7 @@ The project is ready for deployment on:
 - Create RSS feed for blog
 - Add PWA capabilities
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
