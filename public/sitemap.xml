@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://toolkitverse.com/</loc>
+    <loc>https://yourdomain.com/</loc>
   </url>
   <url>
-    <loc>https://toolkitverse.com/student-tools</loc>
+    <loc>https://yourdomain.com/student-tools</loc>
   </url>
   <url>
-    <loc>https://toolkitverse.com/developer-tools</loc>
+    <loc>https://yourdomain.com/developer-tools</loc>
   </url>
   <url>
-    <loc>https://toolkitverse.com/learn</loc>
+    <loc>https://yourdomain.com/learn</loc>
   </url>
   <url>
-    <loc>https://toolkitverse.com/blog</loc>
+    <loc>https://yourdomain.com/blog</loc>
   </url>
   <url>
-    <loc>https://toolkitverse.com/downloads</loc>
+    <loc>https://yourdomain.com/downloads</loc>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/student-news</loc>
   </url>
 </urlset> 

@@ -1,3 +1,5 @@
+"use client"
+
 import Link from 'next/link'
 import { Calendar, Clock, Tag, TrendingUp, BookOpen, Search } from 'lucide-react'
 import { useState } from 'react';

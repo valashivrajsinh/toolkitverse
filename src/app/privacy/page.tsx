@@ -241,7 +241,7 @@ export default function PrivacyPage() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Posting the updated policy on our website</li>
-                  <li>Updating the "Last updated" date at the top of this policy</li>
+                  <li>Updating the &quot;Last updated&quot; date at the top of this policy</li>
                   <li>Sending you an email notification if you have subscribed to our updates</li>
                 </ul>
                 <p>

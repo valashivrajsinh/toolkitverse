@@ -4,9 +4,9 @@ import { Metadata } from 'next'
 export const siteConfig = {
   name: "ToolkitVerse",
   description: "Your all-in-one productivity hub for students and developers. Free calculators, tools, planners, and resources to boost your productivity.",
-  url: "https://toolkitverse.com",
-  ogImage: "https://toolkitverse.com/og.jpg",
-  creator: "@toolkitverse",
+  url: "https://yourdomain.com", // Replace with your actual domain
+  ogImage: "https://yourdomain.com/og.jpg", // Replace with your actual domain
+  creator: "@yourusername", // Replace with your actual username
   keywords: [
     "productivity tools",
     "student calculator",
@@ -23,14 +23,14 @@ export const siteConfig = {
   ],
   authors: [
     {
-      name: "ToolkitVerse",
-      url: "https://toolkitverse.com",
+      name: "Your Name", // Replace with your actual name
+      url: "https://yourdomain.com", // Replace with your actual domain
     }
   ],
   social: {
-    twitter: "https://twitter.com/toolkitverse",
-    github: "https://github.com/toolkitverse",
-    linkedin: "https://linkedin.com/company/toolkitverse"
+    twitter: "https://twitter.com/yourusername", // Replace with your actual social links
+    github: "https://github.com/yourusername", // Replace with your actual social links
+    linkedin: "https://linkedin.com/in/yourusername" // Replace with your actual social links
   }
 }
 
@@ -114,9 +114,9 @@ export const toolCategories = [
 
 // AdSense Configuration
 export const adSenseConfig = {
-  client: "ca-pub-xxxxxxxxxxxxxxxx", // Replace with your AdSense client ID
+  client: "ca-pub-xxxxxxxxxxxxxxxx", // Replace with your actual AdSense client ID
   slots: {
-    topBanner: "1234567890",
+    topBanner: "1234567890", // Replace with your actual ad slot IDs
     sidebar: "0987654321",
     inContent: "1122334455",
     footer: "5544332211"
@@ -125,10 +125,10 @@ export const adSenseConfig = {
 
 // Affiliate Links Configuration
 export const affiliateLinks = {
-  hostinger: "https://hostinger.com?ref=toolkitverse",
-  canva: "https://canva.com?ref=toolkitverse",
-  upstox: "https://upstox.com?ref=toolkitverse",
-  gumroad: "https://gumroad.com/toolkitverse"
+  hostinger: "https://hostinger.com?ref=yourref", // Replace with your actual affiliate links
+  canva: "https://canva.com?ref=yourref",
+  upstox: "https://upstox.com?ref=yourref",
+  gumroad: "https://gumroad.com/yourref"
 }
 
 export type ToolCategory = typeof toolCategories[number]
